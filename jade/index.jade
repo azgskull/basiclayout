@@ -1,0 +1,18 @@
+//---------------------------------------------------------------------------
+//- # Index Page
+//---------------------------------------------------------------------------
+
+//-We extend a layout
+extends core/layouts/default/_default
+
+//-Setting Page Title
+append lyt_vars
+	- var page_title = "Index"
+	- var page_id = "p-index"
+
+//-Setting desc & keyws
+append Lyt_title
+	+set_page_description('test')
+	+set_page_keywords('test')
+
+	

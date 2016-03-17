@@ -1,24 +1,44 @@
+//---------------------------------------------------------------------------
+//- # Default Layout
+//- 	Basic css/scripts are called here, can be modified in common layout vars
+//- 	This is a default layout, it contains all important blocks
+//---------------------------------------------------------------------------
+
+block config_vars
+	include ../../config/_vars
+
+block lyt_vars
+	include ../common/_vars
+
+include ../common/_mixins
+
 doctype
 html
 	head
 		block Lyt_meta
+			//-basic meta
 			meta(charset='utf-8')
 			meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
-
+		
 		block Lyt_title
-			title
+			title #{page_title}
 
 		block Lyt_css
-			block base_css
-		
+			//-default styles
+			+load_css(default_css)
+			
 		block Lyt_scripts_top
 
 	block Lyt_body
-		body
-
+		//-body
+		body(class="#{page_id}")
+			//header
 			block Lyt_header
+			//main
 			block Lyt_main
+			//footer
 			block Lyt_footer
 
 			block Lyt_scripts_bottom
-				
+				//-default scripts
+				+load_js(default_js)
