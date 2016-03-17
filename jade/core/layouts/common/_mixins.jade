@@ -1,0 +1,13 @@
+
+//setting page title
+mixin set_page_title(title)
+	title #{title}
+
+//loading css
+mixin load_css(array_css)
+	each css in array_css
+		block Lyt_css
+			append base_css
+				link(href="#{array_css}" rel="stylesheet")
+
+
