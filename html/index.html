@@ -7,14 +7,23 @@
     <meta name="description" content="test"/>
     <meta name="keywords" content="test"/>
     <link href="assets/css/reset.css" rel="stylesheet"/>
+    <link href="assets/css/ext/bxslider/jquery.bxslider.css" rel="stylesheet"/>
     <link href="assets/css/styles.css" rel="stylesheet"/>
     <link href="assets/css/responsive.css" rel="stylesheet"/>
+    <script src="assets/js/ext/jquery-2.2.2.min.js"></script>
   </head>
   <body class="p-index">
-    <!--header-->
-    <!--main-->
-    <!--footer-->
-    <script src="assets/js/vender/jquery.js"></script>
+    <ul id="TT">
+      <li><img src="assets/imgs/etc/etc-image.jpg"/></li>
+      <li><img src="assets/imgs/etc/etc-image.jpg"/></li>
+    </ul>
+    <script>
+      $(document).ready(function(){
+      	$("#TT").bxSlider();
+      })
+      
+    </script>
+    <script src="assets/js/ext/jquery.bxslider.min.js"></script>
     <script src="assets/js/scripts.js"></script>
   </body>
 </html>

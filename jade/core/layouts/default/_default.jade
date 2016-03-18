@@ -12,33 +12,66 @@ block lyt_vars
 
 include ../common/_mixins
 
+//- include needed blocks here 
+include ../../blocks/slider/_blk_slider
+
 doctype
 html
 	head
+		
+		//-///////////////////////////////////////////////////
+		//- Meta Block
 		block Lyt_meta
 			//-basic meta
 			meta(charset='utf-8')
 			meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
 		
+		//-///////////////////////////////////////////////////
+		//- Title Block
 		block Lyt_title
 			title #{page_title}
-
+		
+		//-///////////////////////////////////////////////////
+		//- Styles css Block
 		block Lyt_css
-			//-default styles
-			+load_css(default_css)
+			//-
+				Here we first include reset
+				then basic css
+				then we can add styles of included plugins
 			
+			//- reset
+			+load_css(["reset"])
+			
+			//- Basic Css
+			block basic_css
+				+load_css(plugins_css)
+				+load_css(default_css)
+			
+		//-///////////////////////////////////////////////////	
 		block Lyt_scripts_top
+			//-Jquery
+			+load_js(["ext/jquery-2.2.2.min"])
+	
+	//-body
+	body(class="#{page_id}")
+		
+		//-///////////////////////////////////////////////////
+		block Lyt_body
 
-	block Lyt_body
-		//-body
-		body(class="#{page_id}")
-			//header
+			//-///////////////////////////////////////////////////
 			block Lyt_header
-			//main
+
+			//-///////////////////////////////////////////////////
 			block Lyt_main
-			//footer
+
+			//-///////////////////////////////////////////////////
 			block Lyt_footer
 
+			//-///////////////////////////////////////////////////
 			block Lyt_scripts_bottom
-				//-default scripts
+				+load_js(plugins_js)
 				+load_js(default_js)
+
+		
+
+
