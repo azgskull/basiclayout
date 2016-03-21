@@ -1,0 +1,5 @@
+@import "_require";
+
+body{
+	width: map-get($breakpoints, tablet);
+}
