@@ -19,7 +19,7 @@ a{color: $color-typo-a; text-decoration: none}
 a:visited{color: $color-typo-a-visited}
 a:hover{color: $color-typo-a-hover; text-decoration: underline;}
 
-p{color: $color-typo-p}
+p{color: $color-typo-p; margin: rem-cal(11px) 0;}
 
 
 //// List
