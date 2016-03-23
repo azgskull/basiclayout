@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------
-//- # Index Page
+//- # Grid Page
 //---------------------------------------------------------------------------
 
 
@@ -12,20 +12,15 @@ extends ../layouts/default/_default
 
 //- Setting Page Title
 append lyt_vars
-	- var page_title = "Index"
-	- var page_id = "p-index"
-
-//- Setting desc & keyws
-append Lyt_title
-	+set_page_description('test')
-	+set_page_keywords('test')
-
+	- var page_title = "Slider"
+	//- - var page_id = "p-index"
 
 //-///////////////////////////////////////////////
 	Document
 
 append Lyt_main
-	h1 Liste of exemples
-	ul
-		li: a(href="grid.html") Grid
-		li: a(href="slider.html") Slider
+	h1 Exemple of slider
+
+	.row
+		.sm-12.cols
+			+slider('TT',['etc/etc-image.jpg','etc/etc-image.jpg','etc/etc-image.jpg'],'img')

@@ -3,31 +3,31 @@
 //---------------------------------------------------------------------------
 
 //----- theme's colors
-$black		: #000;
-$white 		: #fff;
-$cloud 		: #ecf0f1;
-$gray		: #95a5a6;
-$blue 		: #3498db;
-$green		: #27ae60;
-$turquoise	: #1abc9c;
-$asphalt 	: #34495e;
-$yellow		: #f1c40f;
-$orange		: #e67e22;
-$red 		: #c0392b;
+$color-black		: #000;
+$color-white 		: #fff;
+$color-cloud 		: #ecf0f1;
+$color-gray			: #95a5a6;
+$color-blue 		: #3498db;
+$color-green		: #27ae60;
+$color-turquoise	: #1abc9c;
+$color-asphalt 		: #34495e;
+$color-yellow		: #f1c40f;
+$color-orange		: #e67e22;
+$color-red 			: #c0392b;
 
 
 //---- theme's vars
-$color-typo-default		: darken($asphalt, 5%);
+$color-typo-default		: darken($color-asphalt, 5%);
 
-$color-typo-h1 	: $asphalt;
-$color-typo-h2 	: $asphalt;
-$color-typo-h3 	: $asphalt;
-$color-typo-h4 	: $asphalt;
-$color-typo-h5 	: $asphalt;
-$color-typo-h6 	: $asphalt;
+$color-typo-h1 	: $color-asphalt;
+$color-typo-h2 	: $color-asphalt;
+$color-typo-h3 	: $color-asphalt;
+$color-typo-h4 	: $color-asphalt;
+$color-typo-h5 	: $color-asphalt;
+$color-typo-h6 	: $color-asphalt;
 
-$color-typo-p	: darken($asphalt, 10%);
+$color-typo-p	: darken($color-asphalt, 10%);
 
-$color-typo-a			: $blue;
-$color-typo-a-visited	: darken($blue, 20%);
-$color-typo-a-hover		: lighten($blue, 20%);
+$color-typo-a			: $color-blue;
+$color-typo-a-visited	: darken($color-blue, 20%);
+$color-typo-a-hover		: lighten($color-blue, 20%);

@@ -3,14 +3,14 @@
 		font-size: 16px;
 	}
 	
-	//desktop
-	@for $i from $breakpoints-fullhd-desktop through $breakpoints-tablet+1 {
-		@media screen and (max-width: #{$i}){
-			html{
-				font-size: #{$i * $ratio-px-desktop}px;
-			}
-		}
-	}
+	//desktop no need
+	// @for $i from $breakpoints-fullhd-desktop through $breakpoints-tablet+1 {
+	// 	@media screen and (max-width: #{$i}){
+	// 		html{
+	// 			font-size: #{$i * $ratio-px-desktop}px;
+	// 		}
+	// 	}
+	// }
 	//tablet
 	@for $i from $breakpoints-tablet through $default-width-mobile+1 {
 		@media screen and (max-width: #{$i}){

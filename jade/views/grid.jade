@@ -1,0 +1,47 @@
+//---------------------------------------------------------------------------
+//- # Grid Page
+//---------------------------------------------------------------------------
+
+
+//-///////////////////////////////////////////////
+	Config and init
+
+
+//-We extend a layout
+extends ../layouts/default/_default
+
+//- Setting Page Title
+append lyt_vars
+	- var page_title = "Grid"
+	//- - var page_id = "p-index"
+
+//-///////////////////////////////////////////////
+	Document
+
+append Lyt_main
+	h1 Exemples of basicGrid
+
+	.row.exp
+		- for($i=1;$i<=12;$i++)
+			.sm-6.md-3.lg-1.cols.exp .sm-6.md-3.lg-1
+	
+	.row.exp
+		.sm-6.md-3.lg-6.cols.exp .sm-6.md-3.lg-6
+		.sm-6.md-9.lg-6.cols.exp .sm-6.md-9.lg-6
+	
+	.row.exp
+		.sm-8.md-4.lg-3.cols.exp .sm-8.md-4.lg-3
+		.sm-2.md-4.lg-6.cols.exp .sm-2.md-4.lg-6
+		.sm-2.md-4.lg-3.cols.exp .sm-2.md-4.lg-3
+	
+	.row.exp
+		.md-2.cols.exp .md-2
+		.md-2.cols.exp .md-2
+		.md-2.cols.exp .md-2
+		.md-6.cols.exp .md-6
+	
+	.row.exp
+		.sm-8.cols.exp .sm-8
+		.sm-1.cols.exp .sm-1
+		.sm-1.cols.exp .sm-1
+		.sm-2.cols.exp .sm-2
