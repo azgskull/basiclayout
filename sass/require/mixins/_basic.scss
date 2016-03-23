@@ -1,0 +1,15 @@
+//---------------------------------------------------------------------------
+//- # basic theme
+//---------------------------------------------------------------------------
+
+
+//font-family mixin
+@function ff($ff){
+	@return $ff, Arial, sans-serif;
+}
+
+//px to rem - base font-size 16px
+@function rem-cal($px){
+	//@return $px;
+	@return #{$px/16px}rem;
+}

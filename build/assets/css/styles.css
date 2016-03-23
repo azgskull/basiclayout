@@ -1,0 +1,49 @@
+html {
+  color: #2b3c4e;
+}
+
+h1 {
+  color: #34495e;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #34495e;
+  font-size: 1.25rem;
+}
+
+h4 {
+  color: #34495e;
+  font-size: 1rem;
+}
+
+h5 {
+  color: #34495e;
+  font-size: 0.75rem;
+}
+
+h6 {
+  color: #34495e;
+  font-size: 0.6875rem;
+}
+
+a {
+  color: #3498db;
+}
+
+a:visited {
+  color: #196090;
+}
+
+a:hover {
+  color: #8bc4ea;
+}
+
+p {
+  color: #222f3d;
+}

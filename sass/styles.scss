@@ -1,5 +1,5 @@
 @import "_require";
 
-body{
-	width: map-get($breakpoints, tablet);
-}
+
+//importing a lyout style
+@import "layouts/default/_layout";
