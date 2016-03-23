@@ -19,8 +19,14 @@ append lyt_vars
 	Document
 
 append Lyt_main
-	h1 Exemple of slider
+	.row.exp
+		h1 Exemple of slider
 
-	.row
+	.row.exp
 		.sm-12.cols
 			+slider('TT',['etc/etc-image.jpg','etc/etc-image.jpg','etc/etc-image.jpg'],'img')
+
+	.row.exp
+		.sm-12.cols
+			h2 Jade Code
+			blockquote +slider('TT',['etc/etc-image.jpg','etc/etc-image.jpg','etc/etc-image.jpg'],'img')

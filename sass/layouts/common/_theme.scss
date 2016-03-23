@@ -5,18 +5,41 @@
 ///////////////////////////////////////
 //// Put here all common theme for typo, form, link etc...
 
-////exemple
+//// Heading & typo
 html{color: $color-typo-default}
 
-h1{color: $color-typo-h1; font-size: rem-cal(32px)}
-h2{color: $color-typo-h2; font-size: rem-cal(24px)}
-h3{color: $color-typo-h3; font-size: rem-cal(20px)}
-h4{color: $color-typo-h4; font-size: rem-cal(16px)}
-h5{color: $color-typo-h5; font-size: rem-cal(12px)}
-h6{color: $color-typo-h6; font-size: rem-cal(11px)}
+h1{color: $color-typo-h1; font-size: rem-cal(32px); line-height: rem-cal(48px)}
+h2{color: $color-typo-h2; font-size: rem-cal(24px); line-height: rem-cal(36px)}
+h3{color: $color-typo-h3; font-size: rem-cal(20px); line-height: rem-cal(30px)}
+h4{color: $color-typo-h4; font-size: rem-cal(16px); line-height: rem-cal(24px)}
+h5{color: $color-typo-h5; font-size: rem-cal(12px); line-height: rem-cal(18px)}
+h6{color: $color-typo-h6; font-size: rem-cal(11px); line-height: rem-cal(16px)}
 
-a{color: $color-typo-a}
+a{color: $color-typo-a; text-decoration: none}
 a:visited{color: $color-typo-a-visited}
-a:hover{color: $color-typo-a-hover}
+a:hover{color: $color-typo-a-hover; text-decoration: underline;}
 
 p{color: $color-typo-p}
+
+
+//// List
+ul{
+	li{
+		list-style: none;
+		position: relative;
+		padding-left: rem-cal(10px);
+		line-height: rem-cal(24px);
+
+		&:before{
+			content: '';
+			display: block;
+			position: absolute;
+			top: rem-cal(10px);
+			left: 0px;
+			width: rem-cal(3px);
+			height: rem-cal(3px);
+			border: 1px solid $color-asphalt;
+			border-radius: 100%;
+		}
+	}
+}
