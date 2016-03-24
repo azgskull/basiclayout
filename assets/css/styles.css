@@ -2,6 +2,10 @@ html {
   color: #2b3c4e;
 }
 
+body {
+  font-family: "roboto-regular", Arial, sans-serif;
+}
+
 h1 {
   color: #34495e;
   font-size: 2rem;
