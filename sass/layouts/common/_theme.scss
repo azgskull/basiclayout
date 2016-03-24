@@ -6,8 +6,8 @@
 //// Put here all common theme for typo, form, link etc...
 
 //// Heading & typo
-html{color: $color-typo-default}
-
+html{color: $color-typo-default;}
+body{font-family: ff('roboto-regular')}
 h1{color: $color-typo-h1; font-size: rem-cal(32px); line-height: rem-cal(48px)}
 h2{color: $color-typo-h2; font-size: rem-cal(24px); line-height: rem-cal(36px)}
 h3{color: $color-typo-h3; font-size: rem-cal(20px); line-height: rem-cal(30px)}
