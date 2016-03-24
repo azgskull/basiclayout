@@ -46,6 +46,7 @@
 		position: relative;
 		&::before{
 			content: '';
+			box-sizing: border-box;
 			border: 1px solid #ccc;
 			left: 0px;
 			top: 0px;
@@ -55,6 +56,10 @@
 			position: absolute;
 		}
 		
+	}
+
+	&>img{
+		max-width: 100%;
 	}
 }
 
@@ -69,6 +74,9 @@
 	.cols.sm-#{$i}{
 		width: $i/$cols*100%;
 	}
+	.sm-push-#{$i}{
+		margin-left: $i/$cols*100%;
+	}
 }
 //tablet
 @for $i from 1 through $cols{
@@ -76,6 +84,9 @@
 	.cols.md-#{$i}{
 		width: $i/$cols*100%;
 	}
+	.md-push-#{$i}{
+		margin-left: $i/$cols*100%;
+	}
 }
 //desktop
 @for $i from 1 through $cols{
@@ -83,15 +94,8 @@
 	.cols.lg-#{$i}{
 		width: $i/$cols*100%;
 	}
-}
-
-
-
-//desktop
-@for $i from 1 through $cols{
-	.col.lg-#{$i},
-	.cols.lg-#{$i}{
-		width: $i/$cols*100%;
+	.lg-push-#{$i}{
+		margin-left: $i/$cols*100%;
 	}
 }
 
@@ -102,6 +106,9 @@
 		.cols.md-#{$i}{
 			width: $i/$cols*100%;
 		}
+		.md-push-#{$i}{
+			margin-left: $i/$cols*100%;
+		}
 	}
 }
 //mobile
@@ -110,6 +117,9 @@
 		.col.sm-#{$i},
 		.cols.sm-#{$i}{
 			width: $i/$cols*100%;
+		}
+		.sm-push-#{$i}{
+			margin-left: $i/$cols*100%;
 		}
 	}
 }
