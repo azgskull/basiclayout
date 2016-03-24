@@ -3,6 +3,12 @@
 //---------------------------------------------------------------------------
 
 //----- theme's colors
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+/// These are main color used on different components, 
+/// !! dont remove it or replace it on components
+
 $color-black		: #000;
 $color-white 		: #fff;
 $color-cloud 		: #ecf0f1;
@@ -14,9 +20,14 @@ $color-asphalt 		: #34495e;
 $color-yellow		: #f1c40f;
 $color-orange		: #e67e22;
 $color-red 			: #c0392b;
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+
 
 
 //---- theme's vars
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
 $color-typo-default		: darken($color-asphalt, 5%);
 
 $color-typo-h1 	: $color-asphalt;
@@ -31,3 +42,5 @@ $color-typo-p	: darken($color-asphalt, 10%);
 $color-typo-a			: $color-blue;
 $color-typo-a-visited	: darken($color-blue, 20%);
 $color-typo-a-hover		: lighten($color-blue, 20%);
+////////////////////////////////////////////////////
+////////////////////////////////////////////////////

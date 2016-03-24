@@ -57,14 +57,14 @@ p {
   margin: 0.6875rem 0;
 }
 
-ul li {
+ul.list li {
   list-style: none;
   position: relative;
   padding-left: 0.625rem;
   line-height: 1.5rem;
 }
 
-ul li:before {
+ul.list li:before {
   content: '';
   display: block;
   position: absolute;
@@ -74,4 +74,163 @@ ul li:before {
   height: 0.1875rem;
   border: 1px solid #34495e;
   border-radius: 100%;
+}
+
+ul.inline {
+  display: inline-block;
+}
+
+ul.inline li {
+  list-style: none;
+  float: left;
+}
+
+.topBar {
+  background: #e6e6e6;
+  position: relative;
+}
+
+.topBar::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.topBar .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 2.5rem;
+  height: 100%;
+}
+
+.topBar .logo h1 {
+  text-transform: uppercase;
+  font-family: "quicksand-regular", Arial, sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.375rem;
+  color: #4d4d4d;
+  padding: 0.3125rem 0;
+  text-align: center;
+}
+
+.topBar nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 2.5rem;
+}
+
+.topBar nav ul {
+  height: 100%;
+}
+
+.topBar nav ul li {
+  margin: 0 1.25rem;
+}
+
+.topBar nav ul li a {
+  color: #4d4d4d;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "quicksand-regular", Arial, sans-serif;
+}
+
+.topBar nav ul li a:hover {
+  color: #666666;
+}
+
+@media screen and (max-width: 1024px) {
+  .topBar nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #333333;
+    z-index: 100;
+  }
+  .topBar nav ul {
+    width: 100%;
+  }
+  .topBar nav ul li {
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+  .topBar nav ul li:hover {
+    background: #b3b3b3;
+  }
+  .topBar nav ul li a {
+    color: #e6e6e6;
+    padding: 0.625rem 0;
+    display: block;
+    width: 100%;
+  }
+}
+
+.topBar span.toggle {
+  display: none;
+  position: absolute;
+  right: 0.625rem;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  height: 19px;
+  width: 19px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.topBar span.toggle::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 3px;
+  width: 100%;
+  background: #333;
+  box-shadow: 0 8px 0 0px #333;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.topBar span.toggle::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 3px;
+  width: 100%;
+  background: #333;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .topBar span.toggle {
+    display: block;
+  }
+}
+
+.topBar.open span.toggle::before {
+  left: 100%;
+  box-shadow: -20px 8px 0 0px #333;
+}
+
+.topBar.open span.toggle::after {
+  left: -100%;
+}
+
+.topBar.open nav {
+  display: block;
+}
+
+.topBar.closed nav {
+  display: none;
 }

@@ -24,22 +24,31 @@ p{color: $color-typo-p; margin: rem-cal(11px) 0;}
 
 //// List
 ul{
-	li{
-		list-style: none;
-		position: relative;
-		padding-left: rem-cal(10px);
-		line-height: rem-cal(24px);
+	&.list{
+		li{
+			list-style: none;
+			position: relative;
+			padding-left: rem-cal(10px);
+			line-height: rem-cal(24px);
 
-		&:before{
-			content: '';
-			display: block;
-			position: absolute;
-			top: rem-cal(10px);
-			left: 0px;
-			width: rem-cal(3px);
-			height: rem-cal(3px);
-			border: 1px solid $color-asphalt;
-			border-radius: 100%;
+			&:before{
+				content: '';
+				display: block;
+				position: absolute;
+				top: rem-cal(10px);
+				left: 0px;
+				width: rem-cal(3px);
+				height: rem-cal(3px);
+				border: 1px solid $color-asphalt;
+				border-radius: 100%;
+			}
 		}
 	}
+	&.inline{
+		display: inline-block;
+		li{
+			list-style: none;
+			float: left;
+		}
+	}	
 }

@@ -17,9 +17,8 @@
 	}
 
 	&.exp{
-		&+.exp{
-			margin-top: rem-cal(10px);
-		}
+		margin-top: rem-cal(10px);
+		margin-bottom: rem-cal(10px);
 	}
 }
 .col,
@@ -66,7 +65,7 @@
 //////////////////////////////////////////
 /// responsive
 
-
+//////////// Grid column + push
 
 //mobile
 @for $i from 1 through $cols{
@@ -125,6 +124,19 @@
 }
 
 
-
+////////// Collapse me
+.cols.collapse,.col.collapse{
+	padding: 0px; 
+}
+@media screen and (max-width: $breakpoints-tablet){
+	.cols.md-collapse,.col.md-collapse{
+		padding: 0px; 
+	}
+}
+@media screen and (max-width: $breakpoints-mobile){
+	.cols.sm-collapse,.col.sm-collapse{
+		padding: 0px; 
+	}
+}
 
 

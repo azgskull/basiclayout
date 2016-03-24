@@ -3,17 +3,16 @@
 //---------------------------------------------------------------------------
 
 mixin topBar(title,logo,links)
-	.topBar(id="##{ID}").lg-4.cols
-		.logo
+	.topBar
+		.logo.md-12.lg-4.cols
 			- if (title != "")
-				| #{title}
+				h1 #{title}
 			- if (logo != "")
-				img(src="#{url_imgs}#{logo}")
-		nav.lg-8.cols
-			ul
+				h1: img(src="#{url_imgs}#{logo}")
+		nav.md-12.lg-8.cols.md-collapse
+			ul.inline
 				- each link in links
-					li: a(href="#{link[0]}") #{link[1]}
+					li: a(href="#{link[1]}") #{link[0]}
+		span.toggle
 
-//- including plugins JS+CSS
-// - plugins_js.push("ext/jquery.bxslider.min");
-// - plugins_css.push("ext/bxslider/jquery.bxslider");
+- plugins_js.push("topbar");
