@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Slider</title>
+    <link href="assets/css/reset.css" rel="stylesheet"/>
+    <link href="assets/css/ext/bxslider/jquery.bxslider.css" rel="stylesheet"/>
+    <link href="assets/css/grid.css" rel="stylesheet"/>
+    <link href="assets/css/fonts.css" rel="stylesheet"/>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+    <link href="assets/css/responsive.css" rel="stylesheet"/>
+    <script src="assets/js/ext/jquery-2.2.2.min.js"></script>
+  </head>
+  <body class="p-home">
+    <div class="row exp">
+      <h1>Exemple of slider</h1>
+    </div>
+    <div class="row exp">
+      <div class="sm-12 cols">
+        <ul id="TT">
+          <li><img src="assets/imgs/etc/etc-image.jpg"/></li>
+          <li><img src="assets/imgs/etc/etc-image.jpg"/></li>
+          <li><img src="assets/imgs/etc/etc-image.jpg"/></li>
+        </ul>
+        <script>
+          $(document).ready(function(){
+          	$("#TT").bxSlider({
+          		adaptiveHeight: true,
+          	});
+          })
+          
+        </script>
+      </div>
+    </div>
+    <div class="row exp">
+      <div class="sm-12 cols">
+        <h2>Jade Code</h2>
+        <blockquote>+slider('TT',['etc/etc-image.jpg','etc/etc-image.jpg','etc/etc-image.jpg'],'img')</blockquote>
+      </div>
+    </div>
+    <script src="assets/js/ext/jquery.bxslider.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
