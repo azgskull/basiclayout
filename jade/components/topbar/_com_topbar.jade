@@ -1,0 +1,19 @@
+//---------------------------------------------------------------------------
+//- # TopBar Block/Mixins
+//---------------------------------------------------------------------------
+
+mixin topBar(title,logo,links)
+	.topBar(id="##{ID}").lg-4.cols
+		.logo
+			- if (title != "")
+				| #{title}
+			- if (logo != "")
+				img(src="#{url_imgs}#{logo}")
+		nav.lg-8.cols
+			ul
+				- each link in links
+					li: a(href="#{link[0]}") #{link[1]}
+
+//- including plugins JS+CSS
+// - plugins_js.push("ext/jquery.bxslider.min");
+// - plugins_css.push("ext/bxslider/jquery.bxslider");

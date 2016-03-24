@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------
-//- # Index Page
+//- # TopBar Page
 //---------------------------------------------------------------------------
 
 
@@ -12,22 +12,12 @@ extends ../layouts/default/_default
 
 //- Setting Page Title
 append lyt_vars
-	- var page_title = "Index"
-	- var page_id = "p-index"
-
-//- Setting desc & keyws
-append Lyt_title
-	+set_page_description('test')
-	+set_page_keywords('test')
-
+	- var page_title = "TopBar"
+	//- - var page_id = "p-index"
 
 //-///////////////////////////////////////////////
 	Document
 
 append Lyt_main
-	.row
-		h1 Liste of exemples
-		ul
-			li: a(href="topbar.html") TopBar Navigation
-			li: a(href="grid.html") Grid
-			li: a(href="slider.html") Slider
+	.row.exp
+		+topBar("BasicLayout TopBar","",[["Accueil","index.html"],["Grid","grid.html"],["Slider","slider.html"]])
