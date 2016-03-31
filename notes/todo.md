@@ -13,4 +13,18 @@
 - [x] **Sass Structure**
   - [x] Create & prepare all main files/folders
 
-##Jade
+##Jade :
+- [x] Partials (Header, Footer, Main)
+- [x] DefaultLayout
+- [x] TopBar
+- [x] Slider
+- [ ] Breadcrumps
+- [ ] Message(Alert, Success, Info ...)
+
+
+##Sass :
+- [x] Default Layout Theme
+- [x] TopBar
+- [x] Slider
+- [ ] Breadcrumps
+- [ ] Message(Alert, Success, Info ...)
