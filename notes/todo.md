@@ -6,6 +6,7 @@
   - [ ] Minify/Uglify
   - [ ] Css Prefix
   - [ ] Image Optimisation
+  - [ ] Sprites generating
 - [x] **Project Structure**
   - [x] Build + Src
 - [x] **Jade structure**
