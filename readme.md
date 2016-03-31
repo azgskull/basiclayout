@@ -3,7 +3,7 @@
 Exemple site :
 http://azgskull.github.io/basiclayout/
 
-[List of all **todos** list](basiclayout/notes/todo.md)
+[List of all **todos** list](notes/todo.md)
 
 ##Config's Steps:
 ####1.Gulp config
