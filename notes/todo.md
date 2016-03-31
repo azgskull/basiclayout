@@ -28,3 +28,8 @@
 - [x] Slider
 - [ ] Breadcrumps
 - [ ] Message(Alert, Success, Info ...)
+- [ ] Utilities & mixins
+- [x] Responsive
+  - [x] Grid
+  - [x] Mixin loop
+  - [ ] Utilities Class (hide, show)
