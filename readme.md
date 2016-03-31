@@ -16,9 +16,9 @@ http://azgskull.github.io/basiclayout/
 | Styles (Responsive, reset, default mixins)      |   ![Alt text](http://progressed.io/bar/80?title=done) |
 
 ####Gulp
-- [x] Basic Config
-- [x] Compile Jade
-- [x] Complie SASS
+- [x] ~~ Basic Config ~~
+- [x] ~~ Compile Jade ~~
+- [x] ~~ Complie SASS ~~
 - [ ] Minify CSS
 - [ ] Uglify JS
 - [ ] Optimise Images
