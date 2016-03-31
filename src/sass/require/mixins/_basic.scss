@@ -13,6 +13,13 @@
 	//@return $px;
 	@return #{$px/16px}rem;
 }
+//shortcut for rem-cal
+@function rem($px){
+	@return rem-cal($px);
+}
+
+
+
 
 //clearfix
 @mixin clearfix(){
