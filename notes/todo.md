@@ -1,7 +1,7 @@
 #ToDo
 
 ##Global : 
-- [x] **Gulp**
+- [x] **Gulp configuring**
   - [x] Compile Jade/Sass
   - [ ] Minify/Uglify
   - [ ] Css Prefix
