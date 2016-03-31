@@ -16,5 +16,9 @@ $ npm install gulp-sass --save-dev
 $ npm install gulp-jade --save-dev
 ```
 
+And then Start watching
+```
+$ gulp watch
+```
 
 Enjoy !! :D
