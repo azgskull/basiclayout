@@ -28,17 +28,34 @@ ___
 
 
 ## BasicLayout Progress
-#### Prepare a easy startup for every html project
+#### Jade & Sass 
 |   Jade                          |   Progress                                            |
 | --------------------------------|:-----------------------------------------------------:|
 | Structure                       |   ![Alt text](http://progressed.io/bar/95?title=done) |
-| Components                      |   ![Alt text](http://progressed.io/bar/50?title=done) |
+| Components  & Partials          |   ![Alt text](http://progressed.io/bar/50?title=done) |
+
+* Jade Components & Partials
+- [x] Partials (Header, Footer, Main)
+- [x] DefaultLayout
+- [x] TopBar
+- [x] Slider
+- [ ] Breadcrumps
+- [ ] Message(Alert, Success, Info ...)
+
+
 
 |  Sass                                           |  Progress                                             |
 | ------------------------------------------------|:-----------------------------------------------------:|
 | Components                                      |   ![Alt text](http://progressed.io/bar/50?title=done) |
 | Grids                                           |   ![Alt text](http://progressed.io/bar/100?title=done)|
 | Styles (Responsive, reset, default mixins)      |   ![Alt text](http://progressed.io/bar/80?title=done) |
+
+* Sass Components
+- [x] Default Layout Theme
+- [x] TopBar
+- [x] Slider
+- [ ] Breadcrumps
+- [ ] Message(Alert, Success, Info ...)
 
 ####Gulp
 - [x] ~~Basic Config~~
