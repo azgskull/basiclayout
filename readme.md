@@ -3,6 +3,8 @@
 Exemple site :
 http://azgskull.github.io/basiclayout/
 
+[List of all to do lists](basiclayout/notes/todo.md)
+
 ##Config's Steps:
 ####1.Gulp config
 
