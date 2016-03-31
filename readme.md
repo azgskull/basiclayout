@@ -34,7 +34,7 @@ ___
 | Structure                       |   ![Alt text](http://progressed.io/bar/95?title=done) |
 | Components  & Partials          |   ![Alt text](http://progressed.io/bar/50?title=done) |
 
-* Jade Components & Partials
+**Jade Components & Partials**
 - [x] Partials (Header, Footer, Main)
 - [x] DefaultLayout
 - [x] TopBar
@@ -50,7 +50,7 @@ ___
 | Grids                                           |   ![Alt text](http://progressed.io/bar/100?title=done)|
 | Styles (Responsive, reset, default mixins)      |   ![Alt text](http://progressed.io/bar/80?title=done) |
 
-* Sass Components
+**Sass Components**
 - [x] Default Layout Theme
 - [x] TopBar
 - [x] Slider
