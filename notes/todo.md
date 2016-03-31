@@ -2,35 +2,35 @@
 
 ##Global : 
 - [x] **Gulp configuring**
-  - [x] Compile Jade/Sass
+  - [x] ~~Compile Jade/Sass~~
   - [ ] Minify/Uglify
   - [ ] Css Prefix
   - [ ] Image Optimisation
   - [ ] Sprites generating
-- [x] **Project Structure**
-  - [x] Build + Src
-- [x] **Jade structure**
-  - [x] Create & prepare all main files/folders
-- [x] **Sass Structure**
-  - [x] Create & prepare all main files/folders
+- [x] ~~**Project Structure**~~
+  - [x] ~~Build + Src~~
+- [x] ~~**Jade structure**~~
+  - [x] ~~Create & prepare all main files/folders~~
+- [x] ~~**Sass Structure**~~
+  - [x] ~~Create & prepare all main files/folders~~
 
 ##Jade :
-- [x] Partials (Header, Footer, Main)
-- [x] DefaultLayout
-- [x] TopBar
-- [x] Slider
+- [x] ~~Partials (Header, Footer, Main)~~
+- [x] ~~DefaultLayout~~
+- [x] ~~TopBar~~
+- [x] ~~Slider~~
 - [ ] Breadcrumps
 - [ ] Message(Alert, Success, Info ...)
 
 
 ##Sass :
-- [x] Default Layout Theme
-- [x] TopBar
-- [x] Slider
+- [x] ~~Default Layout Theme~~
+- [x] ~~TopBar~~
+- [x] ~~Slider~~
 - [ ] Breadcrumps
 - [ ] Message(Alert, Success, Info ...)
 - [ ] Utilities & mixins
 - [x] Responsive
-  - [x] Grid
-  - [x] Mixin loop
+  - [x] ~~Grid~~
+  - [x] ~~Mixin loop~~
   - [ ] Utilities Class (hide, show)
