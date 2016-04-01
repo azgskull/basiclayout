@@ -1,6 +1,6 @@
 {
   "name": "basiclayout",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Basic HTML Layout/Style using Jade/Sass",
   "main": "index.js",
   "dependencies": {
@@ -9,6 +9,7 @@
   "devDependencies": {
     "gulp-clean-css": "^2.0.4",
     "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.2.0"
   },
   "scripts": {

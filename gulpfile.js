@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var jade = require('gulp-jade');
 var cleanCSS = require('gulp-clean-css');
+var rename = require('gulp-rename');
 
 var paths = {
   sass: ['app/sass/*.scss','!src/sass/_require.scss'],
@@ -43,5 +44,5 @@ gulp.task('src-build', function() {
 gulp.task('watch', function(){
   gulp.watch('app/sass/**/*.scss', ['sass']); //watch all Sass 
   gulp.watch('app/jade/**/*.jade', ['jade']); //watch all Jade 
-  gulp.watch('app/src/**/*', ['src-build']); //watch all modifs in src 
+  gulp.watch('app/src/**/*', ['src-build','minify-css']); //watch all modifs in src 
 })
