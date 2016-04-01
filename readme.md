@@ -17,6 +17,12 @@ $ npm install gulp-sass --save-dev
 ```
 $ npm install gulp-jade --save-dev
 ```
+```
+$ npm install gulp-clean-css --save-dev
+```
+```
+$ npm install gulp-rename --save-dev
+```
 
 And then Start watching
 ```
