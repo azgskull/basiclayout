@@ -4,11 +4,14 @@
 - [x] **Gulp configuring**
   - [x] ~~Compile Jade/Sass~~
   - [ ] Minify/Uglify
-  - [ ] Css Prefix
+    - [x] Css Minify
+    - [x] Css Prefix
+    - [ ] Js uglify
+  - [x] Src build
   - [ ] Image Optimisation
   - [ ] Sprites generating
 - [x] ~~**Project Structure**~~
-  - [x] ~~Build + Src~~
+  - [x] ~~Build + App~~
 - [x] ~~**Jade structure**~~
   - [x] ~~Create & prepare all main files/folders~~
 - [x] ~~**Sass Structure**~~
