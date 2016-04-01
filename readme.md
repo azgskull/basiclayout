@@ -8,27 +8,20 @@ http://azgskull.github.io/basiclayout/
 ##Config's Steps:
 ####1.Gulp config
 
+Install all "devDependencies"
 ```
-$ npm install gulp
-```
-```
-$ npm install gulp-sass --save-dev
-```
-```
-$ npm install gulp-jade --save-dev
-```
-```
-$ npm install gulp-clean-css --save-dev
-```
-```
-$ npm install gulp-rename --save-dev
+$ npm install --save-dev
 ```
 
-And then Start watching
+And then
+```
+$ gulp jade sass src-build
+```
+
+Now run the watch task, and start cooding ^^
 ```
 $ gulp watch
 ```
-
 Enjoy !! :D
 
 
