@@ -13,7 +13,7 @@ var paths = {
 gulp.task('sass', function(){
   return gulp.src(paths.sass)
     .pipe(sass())
-    .pipe(gulp.dest('build/assets/css'))
+    .pipe(gulp.dest('output/assets/css'))
 });
 
 //Jade TASK
@@ -22,22 +22,22 @@ gulp.task('jade', function(){
     .pipe(jade({
       pretty : true, //pretty is Good
     }))
-    .pipe(gulp.dest('build/'))
+    .pipe(gulp.dest('output/'))
 });
 
 
 //Minify CSS
 gulp.task('minify-css', function() {
-  return gulp.src('build/assets/css/*.css')
+  return gulp.src('output/assets/css/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('build/assets/css/'));
+    .pipe(gulp.dest('output/assets/css/'));
 });
 
 //Copying
 gulp.task('src-build', function() {
   return gulp.src('app/src/**/*')
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('output/'));
 });
 
 //Watching tasks
