@@ -1,11 +1,11 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var jade = require('gulp-jade');
-
+var cleanCSS = require('gulp-clean-css');
 
 var paths = {
-  sass: ['src/sass/*.scss','!src/sass/_require.scss'],
-  jade: 'src/jade/views/**/*.jade'
+  sass: ['app/sass/*.scss','!src/sass/_require.scss'],
+  jade: 'app/jade/views/**/*.jade'
 };
 
 //SASS TASK
@@ -25,9 +25,23 @@ gulp.task('jade', function(){
 });
 
 
+//Minify CSS
+gulp.task('minify-css', function() {
+  return gulp.src('build/assets/css/*.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('build/assets/css/'));
+});
+
+//Copying
+gulp.task('src-build', function() {
+  return gulp.src('app/src/**/*')
+    .pipe(gulp.dest('build/'));
+});
 
 //Watching tasks
 gulp.task('watch', function(){
-  gulp.watch('src/sass/**/*.scss', ['sass']); //watch all Sass 
-  gulp.watch('src/jade/**/*.jade', ['jade']); //watch all Jade 
+  gulp.watch('app/sass/**/*.scss', ['sass']); //watch all Sass 
+  gulp.watch('app/jade/**/*.jade', ['jade']); //watch all Jade 
+  gulp.watch('app/src/**/*', ['src-build']); //watch all modifs in src 
 })
