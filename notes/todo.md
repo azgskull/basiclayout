@@ -34,6 +34,7 @@
 - [ ] Breadcrumps
 - [ ] Message(Alert, Success, Info ...)
 - [ ] Utilities & mixins
+  - [ ] Fonts loading
 - [x] Responsive
   - [x] ~~Grid~~
   - [x] ~~Mixin loop~~
