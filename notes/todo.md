@@ -7,7 +7,8 @@
     - [x] Css Minify
     - [x] Css Prefix
     - [ ] Js uglify
-  - [x] Src build
+  - [x] Src builder
+  - [ ] One commande Builder
   - [ ] Image Optimisation
   - [ ] Sprites generating
 - [x] ~~**Project Structure**~~
