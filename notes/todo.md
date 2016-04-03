@@ -23,16 +23,16 @@
 - [x] ~~DefaultLayout~~
 - [x] ~~TopBar~~
 - [x] ~~Slider~~
-- [ ] Breadcrumps
-- [ ] Message(Alert, Success, Info ...)
+- [x] Breadcrumps
+- [x] Message(Alert, Success, Info ...)
 
 
 ##Sass :
 - [x] ~~Default Layout Theme~~
 - [x] ~~TopBar~~
 - [x] ~~Slider~~
-- [ ] Breadcrumps
-- [ ] Message(Alert, Success, Info ...)
+- [x] Breadcrumps
+- [x] Message(Alert, Success, Info ...)
 - [ ] Utilities & mixins
   - [ ] Fonts loading
 - [x] Responsive
