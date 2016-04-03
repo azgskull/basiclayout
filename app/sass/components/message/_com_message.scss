@@ -1,0 +1,28 @@
+//
+$color-info : blue;
+$color-alert : yellow;
+$color-success : green;
+$color-error : red;
+.msg{
+
+	&-info{
+		background: $color-info;
+		border: 1px solid darken($color-info,10%);
+		color: #fff;
+	}
+	&-alert{
+		background: $color-alert;
+		border: 1px solid darken($color-alert,10%);
+		color: #fff;
+	}
+	&-success{
+		background: $color-success;
+		border: 1px solid darken($color-success,10%);
+		color: #fff;
+	}
+	&-error{
+		background: $color-error;
+		border: 1px solid darken($color-error,10%);
+		color: #fff;
+	}
+}

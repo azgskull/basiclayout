@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------------
+//- # Message Page
+//---------------------------------------------------------------------------
+
+
+//-///////////////////////////////////////////////
+	Config and init
+
+
+//-We extend a layout
+extends ../layouts/default/_default
+
+//- Setting Page Title
+append lyt_vars
+	- var page_title = "Message"
+	//- - var page_id = "p-index"
+
+//-///////////////////////////////////////////////
+	Document
+
+append Lyt_main
+	//- Call the breadcrumbs mixin
+	.row.exp
+		+_com_breadcrumbs([["Index","index.html"],["Message"]])
+
+	.row.exp
+		h1 Exemples of message
+	
+	.row.exp
+		+_com_message('info', "Exemple of info message")
+		+_com_message('alert', "Exemple of alert message")
+		+_com_message('error', "Exemple of error message")
+		+_com_message('success', "Exemple of succes message")
