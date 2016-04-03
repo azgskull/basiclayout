@@ -1,0 +1,15 @@
+nav.breadcrumbs{
+	text-align: left;
+	ul{
+		display: inline-block;
+		li{
+			float: left;
+			text-transform: uppercase;
+
+			&+li::before{
+				content: '-';
+				margin: 0 rem(5px);
+			}
+		}
+	}
+}

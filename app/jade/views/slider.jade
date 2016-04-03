@@ -19,12 +19,17 @@ append lyt_vars
 	Document
 
 append Lyt_main
+	//- Call the breadcrumbs mixin
+	.row.exp
+		+_com_breadcrumbs([["Index","index.html"],["Slider"]])
+
+		
 	.row.exp
 		h1 Exemple of slider
 
 	.row.exp
 		.sm-12.cols
-			+slider('TT',['etc/etc-image.jpg','etc/etc-image.jpg','etc/etc-image.jpg'],'img')
+			+_com_slider('TT',['etc/etc-image.jpg','etc/etc-image.jpg','etc/etc-image.jpg'],'img')
 
 	.row.exp
 		.sm-12.cols

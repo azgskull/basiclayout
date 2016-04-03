@@ -8,7 +8,7 @@
 //- 		- complex h2+p width img 	: +slider('ID_slider',[["imgname.format","title","paragraph"],["imgname.format","title","paragraph"])
 //---------------------------------------------------------------------------
 
-mixin slider(ID,contents, type)
+mixin _com_slider(ID,contents, type)
 	//- Mixin for init html
 	ul(id="#{ID}")
 		- each content in contents
