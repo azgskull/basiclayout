@@ -35,11 +35,11 @@ Enjoy !! :D
 |   Jade                          |   Progress                                            |
 | --------------------------------|:-----------------------------------------------------:|
 | Structure                       |   ![Alt text](http://progressed.io/bar/100?title=done) |
-| Components  & Partials          |   ![Alt text](http://progressed.io/bar/66?title=done) |
+| Components  & Partials          |   ![Alt text](http://progressed.io/bar/100?title=done) |
 
 |  Sass                                           |  Progress                                             |
 | ------------------------------------------------|:-----------------------------------------------------:|
-| Components                                      |   ![Alt text](http://progressed.io/bar/60?title=done) |
+| Components                                      |   ![Alt text](http://progressed.io/bar/100?title=done) |
 | Grids                                           |   ![Alt text](http://progressed.io/bar/100?title=done)|
 | Styles (Responsive, reset, default mixins)      |   ![Alt text](http://progressed.io/bar/52?title=done) |
 
