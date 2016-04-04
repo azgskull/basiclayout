@@ -34,7 +34,7 @@ gulp.task('jade', function(){
 
 //Minify CSS
 gulp.task('minify-css', function() {
-  return gulp.src(paths.css)
+  return gulp.src([paths.css, "!output/assets/css/*min.css"])
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('output/assets/css/'));
