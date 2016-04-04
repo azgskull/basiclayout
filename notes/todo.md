@@ -33,9 +33,9 @@
 - [x] ~~Slider~~
 - [x] ~~Breadcrumps~~
 - [x] ~~Message(Alert, Success, Info ...)~~
-- [ ] Utilities & mixins
-  - [ ] Fonts loading
+- [x] Utilities & mixins
+  - [x] Fonts loading
 - [x] Responsive
   - [x] ~~Grid~~
   - [x] ~~Mixin loop~~
-  - [ ] Utilities Class (hide, show)
+  - [x] Utilities Class (hide, show)
