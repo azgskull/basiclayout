@@ -46,7 +46,7 @@ Enjoy !! :D
 |  Gulp                                           |  Progress                                             |
 | ------------------------------------------------|:-----------------------------------------------------:|
 | Configuring Compile                             |   ![Alt text](http://progressed.io/bar/100?title=done) |
-| Secondary Tasks (minify,uglify ...)             |   ![Alt text](http://progressed.io/bar/0?title=done)|
+| Secondary Tasks (minify,uglify ...)             |   ![Alt text](http://progressed.io/bar/66?title=done)|
 
 
 
