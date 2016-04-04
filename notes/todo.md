@@ -3,14 +3,14 @@
 ##Global : 
 - [x] **Gulp configuring**
   - [x] ~~Compile Jade/Sass~~
-  - [ ] Minify/Uglify
+  - [x] ~~Minify/Uglify~~
     - [x] ~~Css Minify~~
     - [x] ~~Css Prefix~~
-    - [ ] Js uglify
+    - [x] ~~Js uglify~~
   - [x] ~~Src builder~~
-  - [ ] One commande Builder
-  - [ ] Image Optimisation
-  - [ ] Sprites generating
+  - [x] ~~One commande Builder~~
+  - [ ] Image Optimisation //not now
+  - [ ] Sprites generating //not now
 - [x] ~~**Project Structure**~~
   - [x] ~~Build + App~~
 - [x] ~~**Jade structure**~~

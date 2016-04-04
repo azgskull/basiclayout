@@ -15,9 +15,9 @@ Install all "devDependencies"
 $ npm install --save-dev
 ```
 
-And then
+And then build
 ```
-$ gulp jade sass src-build
+$ gulp build
 ```
 
 Now run the watch task, and start cooding ^^
@@ -48,7 +48,7 @@ Enjoy !! :D
 |  Gulp                                           |  Progress                                             |
 | ------------------------------------------------|:-----------------------------------------------------:|
 | Configuring Compile                             |   ![Alt text](http://progressed.io/bar/100?title=done) |
-| Secondary Tasks (minify,uglify ...)             |   ![Alt text](http://progressed.io/bar/66?title=done)|
+| Secondary Tasks (minify,uglify ...)             |   ![Alt text](http://progressed.io/bar/100?title=done)|
 
 
 
