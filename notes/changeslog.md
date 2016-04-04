@@ -1,6 +1,6 @@
 #ChangesLog
 
-##Version 0.9.2
+##Version 0.9.4
 * Gulp Minify - Uglify - Build
 
 ##Version 0.9.2
