@@ -31,7 +31,7 @@ Enjoy !! :D
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-**This progress's list is related to the first stable release's objectifs **
+**This progress's list is related to the first stable release's objectifs**
 
 ## BasicLayout Progress
 |   Jade                          |   Progress                                            |
@@ -43,7 +43,7 @@ Enjoy !! :D
 | ------------------------------------------------|:-----------------------------------------------------:|
 | Components                                      |   ![Alt text](http://progressed.io/bar/100?title=done) |
 | Grids                                           |   ![Alt text](http://progressed.io/bar/100?title=done)|
-| Styles (Responsive, reset, default mixins)      |   ![Alt text](http://progressed.io/bar/52?title=done) |
+| Styles (Responsive, reset, default mixins)      |   ![Alt text](http://progressed.io/bar/100?title=done) |
 
 |  Gulp                                           |  Progress                                             |
 | ------------------------------------------------|:-----------------------------------------------------:|
