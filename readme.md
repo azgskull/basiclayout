@@ -1,11 +1,21 @@
 # BasicLayout : Jade - Sass - Gulp
 A basic Layout startup for every html/css projects using jade, sass and gulp
 
+![Version](https://img.shields.io/badge/BasicLayout-v0.9.5-green.svg)
+![Gulp](https://img.shields.io/badge/Gulp-3.9.1-cf4646.svg)
+[![Live](https://img.shields.io/badge/Live-exemple-lightgrey.svg)](http://azgskull.github.io/gulp-jade-sass-basiclayout)
+
+
+![Objectifs Progress](http://progressed.io/bar/100?title=Objectifs Progress)
+![Global Progress](http://progressed.io/bar/80?title=Global Progress)
+
 
 Exemple site :
 http://azgskull.github.io/gulp-jade-sass-basiclayout
 
 [List of all **todos** list](notes/todo.md)
+
+___
 
 ##Config's Steps:
 ####1.Gulp config
