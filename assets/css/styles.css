@@ -192,21 +192,21 @@ nav.breadcrumbs {
         margin: 0 0.3125rem; }
 
 .msg-info {
-  background: blue;
-  border: 1px solid #0000cc;
+  background: #3498db;
+  border: 1px solid #217dbb;
   color: #fff; }
 
 .msg-alert {
-  background: yellow;
-  border: 1px solid #cccc00;
+  background: #f1c40f;
+  border: 1px solid #c29d0b;
   color: #fff; }
 
 .msg-success {
-  background: green;
-  border: 1px solid #004d00;
+  background: #27ae60;
+  border: 1px solid #1e8449;
   color: #fff; }
 
 .msg-error {
-  background: red;
-  border: 1px solid #cc0000;
+  background: #c0392b;
+  border: 1px solid #962d22;
   color: #fff; }
