@@ -1,4 +1,6 @@
-# Basic HTML Layout/Style using Jade/Sass
+# BasicLayout : Jade - Sass - Gulp
+A basic Layout startup for every html/css projects using jade, sass and gulp
+
 
 Exemple site :
 http://azgskull.github.io/basiclayout/
@@ -29,7 +31,7 @@ Enjoy !! :D
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-**This progress's list is related to the first beta release's objectifs **
+**This progress's list is related to the first stable release's objectifs **
 
 ## BasicLayout Progress
 |   Jade                          |   Progress                                            |
@@ -46,7 +48,7 @@ Enjoy !! :D
 |  Gulp                                           |  Progress                                             |
 | ------------------------------------------------|:-----------------------------------------------------:|
 | Configuring Compile                             |   ![Alt text](http://progressed.io/bar/100?title=done) |
-| Secondary Tasks (minify,uglify ...)             |   ![Alt text](http://progressed.io/bar/0?title=done)|
+| Secondary Tasks (minify,uglify ...)             |   ![Alt text](http://progressed.io/bar/66?title=done)|
 
 
 
