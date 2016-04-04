@@ -1,8 +1,8 @@
 //
-$color-info : blue;
-$color-alert : yellow;
-$color-success : green;
-$color-error : red;
+$color-info : $color-blue;
+$color-alert : $color-yellow;
+$color-success : $color-green;
+$color-error : $color-red;
 .msg{
 
 	&-info{

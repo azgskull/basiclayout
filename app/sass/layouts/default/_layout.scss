@@ -3,9 +3,12 @@
 //- 	
 //---------------------------------------------------------------------------
 
+//importing main theme for projects
 @import "../common/_theme";
 
 // Include here all components
 @import "../../components/topbar/_com_topbar";
 @import "../../components/breadcrumbs/_com_breadcrumbs";
 @import "../../components/message/_com_message";
+
+//here we can add custom styles for this layout
