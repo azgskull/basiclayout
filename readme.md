@@ -57,7 +57,7 @@ _____________
 _____________
 ##ChangesLog
 
-##Version 0.9.4
-* Gulp Minify - Uglify - Build
+###Version 0.9.5
+* All objectifs are done, we are working on a good theme exemple pages
 
 [More changeslog](notes/changeslog.md)
