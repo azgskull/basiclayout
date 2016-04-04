@@ -3,7 +3,7 @@ A basic Layout startup for every html/css projects using jade, sass and gulp
 
 
 Exemple site :
-http://azgskull.github.io/basiclayout/
+http://azgskull.github.io/gulp-jade-sass-basiclayout
 
 [List of all **todos** list](notes/todo.md)
 
