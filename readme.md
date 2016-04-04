@@ -2,7 +2,7 @@
 A basic Layout startup for every html/css projects using jade, sass and gulp
 
 ![Version](https://img.shields.io/badge/BasicLayout-v0.9.5-green.svg)
-![Gulp](https://img.shields.io/badge/Gulp-3.9.1-cf4646.svg)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Live](https://img.shields.io/badge/Live-exemple-lightgrey.svg)](http://azgskull.github.io/gulp-jade-sass-basiclayout)
 
 
