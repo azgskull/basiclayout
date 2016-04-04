@@ -1,4 +1,6 @@
-# Basic HTML Layout/Style using Jade/Sass
+# BasicLayout : Jade - Sass - Gulp
+A basic Layout startup for every html/css projects using jade, sass and gulp
+
 
 Exemple site :
 http://azgskull.github.io/basiclayout/
