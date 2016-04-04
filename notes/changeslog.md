@@ -1,5 +1,8 @@
 #ChangesLog
 
+##Version 0.9.5
+* All objectifs are done, we are working on a good theme exemple pages
+
 ##Version 0.9.4
 * Gulp Minify - Uglify - Build
 
