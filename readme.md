@@ -1,5 +1,5 @@
-# BasicLayout : Jade - Sass - Gulp
-A basic Layout startup for every html/css projects using jade, sass and gulp
+# BasicLayout : Jade(Pug) - Sass - Gulp
+A basic Layout startup for every html/css projects using jade(Pug), sass and gulp
 
 ![Version](https://img.shields.io/badge/BasicLayout-v0.9.5-green.svg)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
