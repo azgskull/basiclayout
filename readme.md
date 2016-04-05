@@ -9,6 +9,9 @@ A basic Layout startup for every html/css projects using jade(Pug), sass and gul
 ![Objectifs Progress](http://progressed.io/bar/100?title=Objectifs Progress)
 ![Global Progress](http://progressed.io/bar/80?title=Global Progress)
 
+##Important !!
+ Due to name change of jade to pug, we will be forced to use the new name as file format and to use gulp pug.
+ But actually we will keep using old name (Jade), until a stable release of pug and all its components will be released.
 
 Exemple site :
 http://azgskull.github.io/gulp-jade-sass-basiclayout
