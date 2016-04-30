@@ -9,6 +9,7 @@
     - [x] ~~Js uglify~~
   - [x] ~~Src builder~~
   - [x] ~~One commande Builder~~
+  - [ ] Plumber
   - [ ] Image Optimisation //not now
   - [ ] Sprites generating //not now
 - [x] ~~**Project Structure**~~
